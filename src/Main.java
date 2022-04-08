@@ -12,9 +12,16 @@ public class Main {
 
         res = add(a, b);
         System.out.println("The sum is: " + res);
+
+        res = multiply(a, b);
+        System.out.println("The multiplication is: " + res);
     }
 
     private static int add(int a, int b) {
         return a + b;
+    }
+
+    private static int multiply(int a, int b) {
+        return a * b;
     }
 }
