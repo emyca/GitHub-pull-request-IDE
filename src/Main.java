@@ -15,6 +15,9 @@ public class Main {
 
         res = multiply(a, b);
         System.out.println("The multiplication is: " + res);
+
+        res = subtract(a, b);
+        System.out.println("The subtraction is: " + res);
     }
 
     private static int add(int a, int b) {
@@ -23,5 +26,9 @@ public class Main {
 
     private static int multiply(int a, int b) {
         return a * b;
+    }
+
+    private static int subtract(int a, int b) {
+        return a - b;
     }
 }
